@@ -1,0 +1,58 @@
+.container {
+    border: 2px solid blue;
+    width: 98%;
+    padding: 20px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  
+.header {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.qr-code {
+    border: 1px solid black;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: 1px solid black;
+    background-color: lightblue;
+    cursor: pointer;
+    text-align: center;
+}
+
+.account-number {
+    clear: both;
+    padding-top: 20px;
+}
+
+.admin-account {
+    clear: both;
+    padding-top: 20px;
+}
+
+.balance {
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.column {
+    float: left;
+    width: 45%;
+    margin: 10px;
+}
+
